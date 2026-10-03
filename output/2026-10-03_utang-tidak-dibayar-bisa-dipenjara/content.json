@@ -1,0 +1,69 @@
+{
+  "topic": "Utang tidak dibayar: wanprestasi atau penipuan?",
+  "category": "perdata",
+  "hook": "Utang Tidak Dibayar: Bisa Dipenjara?",
+  "hook_highlight": "Bisa Dipenjara?",
+  "cover_badge": "UU No. 1 Tahun 2023 (KUHP)",
+  "slides": [
+    {
+      "title": "Utang Macet Bukan Otomatis Pidana",
+      "body": "Tidak membayar utang umumnya merupakan wanprestasi (ingkar janji), sehingga penyelesaiannya berada di ranah perdata."
+    },
+    {
+      "title": "Kapan Bisa Menjadi Penipuan?",
+      "body": "Jika sejak awal ada maksud menguntungkan secara melawan hukum dengan nama/kedudukan palsu, tipu muslihat, atau rangkaian kebohongan untuk memperoleh utang."
+    },
+    {
+      "title": "Penipuan: Pasal 492 KUHP Baru",
+      "body": "Pasal 492 UU 1/2023 mengatur penipuan, termasuk perbuatan yang menggerakkan orang untuk memberi utang atau membuat pengakuan utang."
+    },
+    {
+      "title": "Bagaimana Dengan Penggelapan?",
+      "body": "Penggelapan berbeda dari utang macet. Pasal 486 mengatur perbuatan memiliki secara melawan hukum barang milik orang lain yang sudah berada dalam penguasaannya."
+    },
+    {
+      "title": "Contoh Sederhana",
+      "body": "A meminjam uang dengan identitas benar, lalu gagal membayar karena usahanya rugi: umumnya wanprestasi. Jika sejak awal memakai identitas palsu dan tipu muslihat untuk memperoleh uang: dapat masuk penipuan."
+    },
+    {
+      "title": "Jangan Asal Melapor Pidana",
+      "body": "Periksa isi perjanjian, bukti pembayaran, komunikasi, dan fakta sejak awal transaksi. Bedakan kegagalan memenuhi janji dengan dugaan tipu muslihat sejak awal."
+    }
+  ],
+  "legal_basis": [
+    {
+      "name": "Undang-Undang Nomor 1 Tahun 2023 tentang Kitab Undang-Undang Hukum Pidana",
+      "detail": "Pasal 486: tindak pidana penggelapan. Pasal 492: tindak pidana penipuan. UU ini berlaku sejak 2 Januari 2026.",
+      "url": "https://peraturan.bpk.go.id/Details/234935/uu-no-1-tahun-2023"
+    },
+    {
+      "name": "Yurisprudensi Mahkamah Agung Nomor 4/Yur/Pid/2018",
+      "detail": "Para pihak yang tidak memenuhi kewajiban dalam perjanjian yang dibuat secara sah bukan penipuan, melainkan wanprestasi dalam ranah keperdataan, kecuali perjanjian tersebut didasari itikad buruk/tidak baik.",
+      "url": "https://putusan3.mahkamahagung.go.id/yurisprudensi/detail/11eae84bf603f56082e7313635393133.html"
+    },
+    {
+      "name": "Putusan Mahkamah Agung Nomor 1689 K/Pid/2015",
+      "detail": "Putusan ini dicantumkan sebagai sumber dalam Yurisprudensi Mahkamah Agung Nomor 4/Yur/Pid/2018 mengenai hubungan perjanjian yang didasari itikad buruk dan penipuan.",
+      "url": "https://putusan3.mahkamahagung.go.id/yurisprudensi/detail/11eae84bf603f56082e7313635393133.html"
+    }
+  ],
+  "caption": "Utang tidak dibayar, apakah otomatis bisa dipenjara? Tidak. Umumnya, gagal memenuhi perjanjian adalah wanprestasi. Namun, jika sejak awal digunakan tipu muslihat, nama/kedudukan palsu, atau rangkaian kebohongan untuk memperoleh utang, perbuatan dapat masuk penipuan. Menurut kamu, batas wanprestasi dan penipuan paling sulit dibedakan di bagian mana?",
+  "hashtags": [
+    "#hukum",
+    "#hukumindonesia",
+    "#wanprestasi",
+    "#penipuan",
+    "#utangpiutang",
+    "#KUHPbaru",
+    "#LawStation"
+  ],
+  "confidence": "medium",
+  "verify_notes": [
+    "UU No. 1 Tahun 2023 berstatus berlaku dan tanggal berlakunya 2 Januari 2026 berdasarkan sumber resmi JDIH BPK.",
+    "UU No. 1 Tahun 2023 telah diubah oleh UU No. 1 Tahun 2026 tentang Penyesuaian Pidana. Sebelum publikasi, teks konsolidasi Pasal 486 dan Pasal 492 perlu dicocokkan dengan perubahan terbaru tersebut.",
+    "Yurisprudensi Mahkamah Agung Nomor 4/Yur/Pid/2018 dan Putusan Nomor 1689 K/Pid/2015 dapat diverifikasi pada Direktori Putusan Mahkamah Agung.",
+    "Sumber resmi yang dapat diakses dalam pemeriksaan ini tidak menampilkan teks lengkap Pasal 492 dan Pasal 486 dalam halaman HTML; karena itu redaksi unsur pasal dalam slide dipertahankan secara terbatas dan tidak diperluas.",
+    "Klaim pada slide contoh mengenai seseorang yang gagal membayar karena usahanya rugi merupakan ilustrasi analitis, bukan ketentuan otomatis. Penerapan hukum tetap bergantung pada fakta dan pembuktian.",
+    "Tidak digunakan lagi klaim atau nomor putusan lain yang tidak diperlukan untuk mendukung materi utama."
+  ]
+}
