@@ -1,0 +1,45 @@
+name: Prompt konten (tiap 2 hari)
+
+on:
+  schedule:
+    - cron: "17 23 * * *"   # dicek tiap hari 06:17 WIB; Issue hanya dibuat di hari jadwal (tanggal di plan.json)
+  workflow_dispatch:         # tombol "Run workflow" untuk tes / menyusul tanggal yang terlewat
+    inputs:
+      tanggal:
+        description: "Tanggal jadwal YYYY-MM-DD (kosongkan = hari ini)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  REPORT_DIR: /tmp/report
+  POST_EVERY_DAYS: "2"       # jarak antar konten (hari); ubah bersama plan.json
+  PYTHONDONTWRITEBYTECODE: "1"
+  TANGGAL: ${{ inputs.tanggal }}
+
+jobs:
+  prompt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow
+
+      - name: Susun prompt (hanya di hari jadwal)
+        id: prompt
+        run: |
+          python agent.py issue ${TANGGAL:+--date "$TANGGAL"}
+          if [ -f "$REPORT_DIR/report_title.txt" ]; then echo "has_report=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Buat Issue
+        if: steps.prompt.outputs.has_report == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "$(cat "$REPORT_DIR/report_title.txt")" --body-file "$REPORT_DIR/report_body.md"
