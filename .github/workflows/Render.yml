@@ -30,13 +30,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Pasang Pillow dan font
+      # BARIS 33-37 (DIUBAH): Menambahkan library tambahan untuk agent.py
+      - name: Pasang dependencies dan font
         run: |
-          pip install pillow
+          pip install pillow requests openai
           sudo apt-get install -y -qq fonts-dejavu-core fonts-liberation
 
+      # BARIS 38-43 (DIUBAH): Menambahkan env/API Key jika agent.py membutuhkannya
       - name: Proses inbox
         id: inbox
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # Hapus baris env ini jika tidak memakai API
         run: |
           python agent.py inbox
           if [ -f "$REPORT_DIR/report_title.txt" ]; then echo "has_report=true" >> "$GITHUB_OUTPUT"; fi
