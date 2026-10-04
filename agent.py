@@ -449,7 +449,7 @@ def render_closing(c, idx, total):
     chrome(s, idx, total)
     d = s.d
     t_size, t_lines, t_h = fit_title("Simpan & Bagikan", CW, 260, 100, 60)
-    y = s.centered(t_lines, font("title", t_size), TOP + 90, int(t_size * 1.14), gold=True
+    y = s.centered(t_lines, font("title", t_size), TOP + 90, int(t_size * 1.14), gold=True) 
     bf = font("body", 46)
     y = s.centered(wrap("Tag teman yang perlu tahu ini.", bf, CW), bf, y + 84, 62)
     y = s.centered(wrap(BRAND["cta"], bf, CW), bf, y + 4, 62)
