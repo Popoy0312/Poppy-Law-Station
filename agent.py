@@ -304,16 +304,17 @@ def fit_body(text, max_w, max_h, start=52, minimum=30):
 
 
 def make_bg(path=None):
-    if path:
-        try:
-            resample = getattr(Image, "Resampling", Image).LANCZOS
-            im = ImageOps.fit(Image.open(path).convert("RGB"), (W, H), method=resample)
-            shade = Image.linear_gradient("L").resize((W, H)).point(lambda v: int(95 + v * 0.6))
-            return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), im, shade)
-        except Exception as e:
-            print("⚠ background dilewati:", e)
-    glow = Image.radial_gradient("L").resize((W, H))  # tengah gelap-hangat -> tepi hitam
-    return ImageOps.colorize(glow, (26, 23, 18), (4, 4, 4))
+    # Langsung muat template yang Anda buat dari ChatGPT/Canva
+    # Asumsikan template Anda simpan di assets/backgrounds/template_hukum.png
+    template_path = BASE / 'assets' / 'backgrounds' / 'template_hukum.png'
+    try:
+        # Resize ke ukuran slide (misal 1080x1350)
+        img = Image.open(template_path).convert("RGB").resize((W, H))
+        return img
+    except Exception as e:
+        print("Gagal memuat template:", e)
+        return Image.new("RGB", (W, H), (0, 0, 0)) # Hitam polos jika gagal
+
 
 
 def diamond(d, cx, cy, r, fill):
@@ -358,27 +359,11 @@ class Slide:
         return y
 
 
-def chrome(s, idx, total):
-    """Bingkai emas, header LAW STATION, footer (handle + nomor slide)."""
-    d = s.d
-    d.rectangle([34, 34, W - 35, H - 35], outline=GOLD_D, width=2)
-    d.rectangle([48, 48, W - 49, H - 49], outline=GOLD_DD, width=1)
-    f, gap = font("title", 40), 12
-    ws = [tw(ch, f) for ch in BRAND["name"]]
-    x = (W - (sum(ws) + gap * (len(ws) - 1))) / 2
-    items = []
-    for ch, w in zip(BRAND["name"], ws):
-        items.append(((x, 80), ch, f))
-        x += w + gap
-    s.gold_text(items)
-    ft = font("body", 17)
-    d.text(((W - tw(BRAND["tagline"], ft)) / 2, 140), BRAND["tagline"], font=ft, fill=MUTED)
-    ornament(d, W // 2, 178, 300)
-    ff = font("body", 24)
-    d.text((96, H - 98), BRAND["handle"], font=ff, fill=MUTED)
-    if idx:
-        label = f"{idx:02d} / {total:02d}"
-        d.text((W - 96 - tw(label, ff), H - 98), label, font=ff, fill=MUTED)
+def chrome(s, ids, total):
+    # Dimatikan: Biarkan kosong karena bingkai, logo, dan footer
+    # sudah tergambar langsung dari template_hukum.png
+    pass 
+
 
 
 def render_cover(c, bg, idx, total):
@@ -391,7 +376,7 @@ def render_cover(c, bg, idx, total):
     ws = [tw(ch, f) for ch in label]
     pw, ph, y = int(sum(ws) + gap * (len(label) - 1) + 64), 54, TOP + 10
     x0 = (W - pw) // 2
-    d.rounded_rectangle([x0, y, x0 + pw, y + ph], radius=27, outline=GOLD_D, width=2)
+    # d.rounded_rectangle([x0, y, x0 + pw, y + ph], radius=27, outline=GOLD_D, width=2)
     x = x0 + 32
     for ch, w in zip(label, ws):
         d.text((x, y + 12), ch, font=f, fill=GOLD)
@@ -401,8 +386,8 @@ def render_cover(c, bg, idx, total):
     b_lines = wrap(c.get("cover_badge", ""), bf, CW - 120)[:2]
     b_h = len(b_lines) * 42 + 44 if b_lines else 0
     # judul
-    area_top = y + ph + 40
-    area_bottom = H - 200 - (b_h + 40 if b_h else 0) - 50
+    area_top = 350      # Titik Y awal untuk judul
+    area_bottom = 850   # Batas Y paling bawah agar tidak menabrak palu
     tokens = hook_tokens(c["hook"].upper(), c.get("hook_highlight", "").upper())
     size, tf, lines, th = fit_tokens(tokens, CW, area_bottom - area_top, 112, 56)
     ty = area_top + (area_bottom - area_top - th) // 2
@@ -419,11 +404,9 @@ def render_cover(c, bg, idx, total):
             x += w + space
         yy += lh
     s.gold_text(gold_items)
-    ornament(d, W // 2, ty + th + 34, 150)
     if b_lines:
         bw = int(max(tw(l, bf) for l in b_lines) + 80)
         bx0, by0 = (W - bw) // 2, H - 200 - b_h
-        d.rounded_rectangle([bx0, by0, bx0 + bw, by0 + b_h], radius=18, outline=GOLD_D, width=2)
         yy = by0 + 22
         for l in b_lines:
             d.text(((W - tw(l, bf)) / 2, yy), l, font=bf, fill=GOLD)
@@ -443,7 +426,6 @@ def render_content(slide, label, idx, total, body_start=52):
     b_size, rows, b_h = fit_body(slide.get("body", ""), CW, BOTTOM - TOP - fixed, body_start, 30)
     y0 = TOP + int(max(0, BOTTOM - TOP - (fixed + b_h)) * 0.3)
     # kotak nomor
-    d.rectangle([MX, y0, MX + box_w, y0 + box_h], outline=GOLD, width=2)
     nf = font("title", 38)
     s.gold_text([((MX + (box_w - tw(label, nf)) / 2, y0 + 12), label, nf)])
     # judul
@@ -452,8 +434,6 @@ def render_content(slide, label, idx, total, body_start=52):
     s.gold_text([((MX, ty + i * lh), ln, tf) for i, ln in enumerate(t_lines)])
     # garis pemisah
     ly = ty + t_h + 24
-    d.line([MX, ly, MX + 200, ly], fill=GOLD_D, width=3)
-    diamond(d, MX + 216, ly, 6, GOLD)
     # isi
     by, bf = ly + 40, font("body", b_size)
     for indent, text, is_bullet, ry in rows:
@@ -469,8 +449,7 @@ def render_closing(c, idx, total):
     chrome(s, idx, total)
     d = s.d
     t_size, t_lines, t_h = fit_title("Simpan & Bagikan", CW, 260, 100, 60)
-    y = s.centered(t_lines, font("title", t_size), TOP + 90, int(t_size * 1.14), gold=True)
-    ornament(d, W // 2, y + 30, 150)
+    y = s.centered(t_lines, font("title", t_size), TOP + 90, int(t_size * 1.14), gold=True
     bf = font("body", 46)
     y = s.centered(wrap("Tag teman yang perlu tahu ini.", bf, CW), bf, y + 84, 62)
     y = s.centered(wrap(BRAND["cta"], bf, CW), bf, y + 4, 62)
