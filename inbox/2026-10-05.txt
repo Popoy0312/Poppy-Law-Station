@@ -1,0 +1,63 @@
+<json>
+{
+"topic": "Wajib sertifikasi halal UMK 2026",
+"category": "bisnis",
+"hook": "Wajib Sertifikat Halal UMKM Oktober 2026, Kamu Sudah Siap?",
+"hook_highlight": "Wajib Sertifikat Halal UMKM",
+"cover_badge": "PP No. 42 Tahun 2024",
+"slides": [
+{
+"title": "Batas Waktu: Oktober 2026",
+"body": "Pemerintah memperpanjang batas waktu wajib sertifikat halal khusus untuk produk Usaha Mikro dan Kecil (UMK) menjadi 17 Oktober 2026."
+},
+{
+"title": "Produk Apa Saja yang Wajib?",
+"body": "Aturan ini berlaku untuk pelaku UMK yang memproduksi:\n• Makanan & minuman\n• Bahan baku & tambahan pangan\n• Jasa & produk hasil sembelihan"
+},
+{
+"title": "Awas, Ada Sanksi Menanti!",
+"body": "Belum punya sertifikat halal setelah batas waktu? Ada sanksi administratif berupa:\n• Peringatan tertulis\n• Denda administratif\n• Penarikan barang dari peredaran"
+},
+{
+"title": "Daftar Gratis Lewat SEHATI",
+"body": "BPJPH menyediakan program Sertifikasi Halal Gratis (SEHATI) khusus UMK. Melalui mekanisme pernyataan pelaku usaha (Self-Declare), pendaftaran tidak dipungut biaya."
+},
+{
+"title": "Syarat Utama Jalur Gratis",
+"body": "Jalur Self-Declare ini berlaku jika:\n• Produk tidak berisiko\n• Menggunakan bahan yang sudah dipastikan kehalalannya\n• Proses produksi dipastikan sederhana dan halal"
+},
+{
+"title": "Langkah Daftar SIHALAL",
+"body": "1. Pastikan memiliki NIB (Nomor Induk Berusaha)\n2. Buka ptsp.halal.go.id\n3. Pilih jalur Self-Declare\n4. Lengkapi data dan dokumen persyaratan"
+}
+],
+"legal_basis": [
+{
+"name": "Undang-Undang Nomor 33 Tahun 2014 tentang Jaminan Produk Halal",
+"detail": "Pasal 4 (Kewajiban bersertifikat halal bagi produk yang beredar)",
+"url": "https://peraturan.go.id"
+},
+{
+"name": "Peraturan Pemerintah Nomor 42 Tahun 2024 tentang Perubahan atas PP Nomor 39 Tahun 2021",
+"detail": "Pasal 160 (Penundaan kewajiban sertifikasi halal UMK ke 17 Oktober 2026)",
+"url": "https://peraturan.go.id"
+}
+],
+"caption": "Tenggat waktu sertifikasi halal untuk UMKM resmi diperpanjang hingga 17 Oktober 2026! Jangan ditunda, manfaatkan program SEHATI BPJPH untuk daftar gratis via jalur Self-Declare. Produk berlabel halal bikin konsumen makin percaya dan usahamu aman dari sanksi. Bisnis kamu sudah punya sertifikat halal belum?",
+"hashtags": [
+"#hukum",
+"#hukumbisnis",
+"#sertifikasihalal",
+"#umkmindonesia",
+"#bpjph",
+"#legalitasusaha",
+"#halal"
+],
+"confidence": "high",
+"verify_notes": [
+"Telah diverifikasi: PP 42/2024 resmi mengatur penundaan kewajiban sertifikasi halal bagi UMK dari 17 Oktober 2024 menjadi 17 Oktober 2026.",
+"Telah diverifikasi: Sanksi administratif (peringatan tertulis, denda, penarikan barang) sesuai dengan PP 39/2021 jo. PP 42/2024.",
+"Catatan operasional: Perlu mengingatkan audiens bahwa kuota Sertifikasi Halal Gratis (SEHATI) bergantung pada anggaran tahunan BPJPH/Kemenag, sehingga lebih baik mendaftar lebih awal."
+]
+}
+</json>
