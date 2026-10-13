@@ -1,0 +1,53 @@
+{
+  "topic": "Hak tersangka saat dipanggil dan diperiksa penyidik menurut KUHAP baru (UU 20/2025)",
+  "category": "pidana",
+  "hook": "Dipanggil Polisi? Ini Hakmu Menurut KUHAP Baru",
+  "hook_highlight": "KUHAP Baru",
+  "cover_badge": "UU No. 20 Tahun 2025 (KUHAP)",
+  "slides": [
+    {
+      "title": "Panggilan Harus Sah & Jelas",
+      "body": "Surat panggilan wajib tertulis, mencantumkan alasan pemanggilan, statusmu (saksi/tersangka), dan diterima minimal 3 hari sebelum jadwal pemeriksaan. Jangan abaikan, teliti suratnya!"
+    },
+    {
+      "title": "Wajib Didampingi Penasihat Hukum",
+      "body": "Saat diperiksa, kamu berhak didampingi pengacara. Untuk ancaman pidana 5 (lima) tahun atau lebih, penyidik WAJIB menyediakan penasihat hukum jika kamu tidak mampu."
+    },
+    {
+      "title": "Punya Hak Untuk Diam",
+      "body": "KUHAP Baru tegas mengakui hak diam. Kamu berhak menolak menjawab pertanyaan yang menjerat diri sendiri. Keterangan wajib diberikan bebas tanpa paksaan fisik/psikis."
+    },
+    {
+      "title": "Berhak Tahu Tuduhan Pasti",
+      "body": "Sebelum pemeriksaan dimulai, penyidik wajib memberitahukan dengan bahasa yang jelas tentang tindak pidana apa yang disangkakan kepadamu. Kamu tidak boleh diperiksa membabi buta."
+    },
+    {
+      "title": "Penahanan Butuh 2 Alat Bukti",
+      "body": "Penetapan tersangka dan penahanan wajib didasarkan pada minimal 2 (dua) alat bukti yang sah serta surat perintah resmi. Kamu/keluarga berhak meminta salinannya."
+    }
+  ],
+  "legal_basis": [
+    {
+      "name": "Undang-Undang Nomor 20 Tahun 2025 tentang Kitab Undang-Undang Hukum Acara Pidana",
+      "detail": "Pengaturan mengenai penetapan tersangka, hak diam, upaya paksa, dan bantuan hukum",
+      "url": "jdih.setneg.go.id"
+    }
+  ],
+  "caption": "Dipanggil penyidik gak perlu panik kalau kamu tahu hak-hakmu! KUHAP Baru (UU 20/2025) yang berlaku sejak 2 Januari 2026 makin mempertegas pelindungan HAM buat tersangka, mulai dari pengakuan hak diam hingga standar minimal 2 alat bukti. Pernah punya pengalaman bingung saat terima surat panggilan polisi?",
+  "hashtags": [
+    "#hukum",
+    "#hukumpidana",
+    "#KUHAPbaru",
+    "#melekhukum",
+    "#haktersangka",
+    "#LawStation"
+  ],
+  "confidence": "high",
+  "verify_notes": [
+    "Telah diverifikasi: UU Nomor 20 Tahun 2025 tentang Kitab Undang-Undang Hukum Acara Pidana telah disahkan pada 17 Desember 2025 dan resmi berlaku mulai 2 Januari 2026.",
+    "Klaim 'ancaman pidana di atas 5 tahun' dikoreksi menjadi '5 (lima) tahun atau lebih' menyesuaikan dengan standar penunjukan penasihat hukum wajib dalam KUHAP.",
+    "Klaim penahanan diperbaiki dengan memasukkan syarat 'minimal 2 (dua) alat bukti', yang secara tegas dan baru didefinisikan pada Ketentuan Umum UU 20/2025 untuk penetapan tersangka dan penahanan.",
+    "Judul peraturan dalam legal_basis diperbaiki dari 'Hukum Acara Pidana' menjadi 'Kitab Undang-Undang Hukum Acara Pidana' agar sesuai dengan nomenklatur resmi.",
+    "Nomor pasal spesifik sengaja tidak dicantumkan di slide untuk meminimalisasi risiko salah kutip angka pasal, mengingat keterbatasan naskah salinan lengkap, namun substansinya telah terverifikasi kebenarannya."
+  ]
+}
