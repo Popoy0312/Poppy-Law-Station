@@ -1,0 +1,71 @@
+<json>
+{
+"topic": "Kontrak PKWT Berakhir Desember 2026",
+"category": "ketenagakerjaan",
+"hook": "Kontrak Kerja Habis Desember Ini? Cek Aturan Baru UU 27/2026!",
+"hook_highlight": "UU 27/2026",
+"cover_badge": "UU No. 27 Tahun 2026",
+"slides": [
+{
+"title": "Kontrak Habis Desember Ini?",
+"body": "UU 27/2026 berlaku sejak 28 Oktober 2026. Jika PKWT berakhir Desember 2026, periksa durasi kontrak, jenis pekerjaan, pemberitahuan perpanjangan, dan hak kompensasi."
+},
+{
+"title": "Batas PKWT Maksimal 4 Tahun",
+"body": "Jangka awal paling lama 2 tahun. Perpanjangan hanya 2 kali, masing-masing maksimal 1 tahun. Total masa PKWT paling lama 4 tahun."
+},
+{
+"title": "Tiga Ketentuan Penting",
+"body": "• Perpanjangan: pemberitahuan tertulis paling lambat 7 hari sebelum kontrak berakhir.\n• Pencatatan PKWT: maksimal 3 hari kerja sejak ditandatangani.\n• Masa percobaan: dilarang dan batal demi hukum."
+},
+{
+"title": "Uang Kompensasi Tetap Wajib",
+"body": "PKWT berakhir: kompensasi dibayar jika masa kerja minimal 1 bulan. Rumus PP 35/2021: masa kerja ÷ 12 × dasar upah bulanan. Contoh: 8 bulan, dasar upah Rp6 juta = Rp4 juta."
+},
+{
+"title": "Kapan Menjadi Karyawan Tetap?",
+"body": "PKWT tanpa bentuk tertulis, untuk pekerjaan tetap, atau melanggar kriteria pekerjaan yang boleh di-PKWT-kan berubah demi hukum menjadi PKWTT. Kontrak habis saja tidak otomatis menjadikan pekerja karyawan tetap."
+}
+],
+"legal_basis": [
+{
+"name": "Undang-Undang Republik Indonesia Nomor 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan",
+"detail": "Pasal 81 ayat (1) huruf b dan c: berakhirnya jangka waktu atau selesainya pekerjaan tertentu. Pasal 82 ayat (2): jangka waktu maksimal 2 tahun dan 2 kali perpanjangan, masing-masing maksimal 1 tahun. Pasal 82 ayat (3): pemberitahuan tertulis paling lambat 7 hari sebelum PKWT berakhir. Pasal 83 ayat (1) dan Pasal 85: kewajiban bentuk tertulis dan akibat hukum PKWT yang tidak tertulis. Pasal 86 ayat (1) dan (2): larangan masa percobaan dalam PKWT dan batal demi hukum. Pasal 87 ayat (1), (2), (3), dan (5): kriteria pekerjaan, larangan PKWT untuk pekerjaan tetap, pencatatan maksimal 3 hari kerja, dan perubahan demi hukum menjadi PKWTT. Pasal 88 ayat (1), (2), dan (3): kewajiban dan pengaturan uang kompensasi. Pasal 91: pengaturan PKWT lebih lanjut melalui PP. Pasal 310 dan 311: keberlakuan peraturan pelaksanaan lama dan pencabutan ketentuan sebelumnya.",
+"url": "https://jdih.kemnaker.go.id/asset/data_puu/2026uu027.pdf"
+},
+{
+"name": "Peraturan Pemerintah Republik Indonesia Nomor 35 Tahun 2021 tentang Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja",
+"detail": "Pasal 15 ayat (1) sampai dengan ayat (5): kewajiban dan waktu pembayaran kompensasi, persyaratan masa kerja minimal 1 bulan secara terus-menerus, kompensasi ketika PKWT diperpanjang, serta pengecualian tenaga kerja asing. Pasal 16 ayat (1) sampai dengan ayat (6): besaran kompensasi secara proporsional, dasar penghitungan upah, dan ketentuan khusus usaha mikro dan kecil. Penerapan ketentuan tersebut memperhatikan Pasal 310 UU 27/2026, yaitu peraturan pelaksanaan sebelumnya tetap berlaku sepanjang tidak bertentangan dengan UU baru.",
+"url": "https://peraturan.bpk.go.id/Download/154582/PP%20Nomor%2035%20Tahun%202021.pdf"
+}
+],
+"caption": "Kontrak Kerja Habis Desember Ini? Jangan Abaikan Hakmu! UU 27/2026 membatasi PKWT maksimal 4 tahun, mewajibkan pemberitahuan perpanjangan 7 hari sebelumnya, pencatatan 3 hari kerja, serta pembayaran kompensasi ketika kontrak berakhir. Masa percobaan dalam PKWT juga batal demi hukum. Apakah kontrak kerjamu sudah sesuai aturan terbaru?",
+"hashtags": [
+"#LawStation",
+"#HukumKetenagakerjaan",
+"#PKWT",
+"#PKWTT",
+"#HakPekerja",
+"#HukumIndonesia",
+"#EdukasiHukum"
+],
+"confidence": "medium",
+"verify_notes": [
+"TERVERIFIKASI: UU Nomor 27 Tahun 2026 tentang Pelindungan Ketenagakerjaan benar-benar tercatat dalam JDIH Kementerian Ketenagakerjaan, JDIH Sekretariat Negara, dan JDIH BPK. Disahkan dan diundangkan pada 28 Oktober 2026 serta mulai berlaku pada tanggal tersebut.",
+"TERVERIFIKASI: Pasal 82 ayat (2) secara eksplisit menetapkan jangka waktu maksimal 2 tahun dan perpanjangan maksimal 2 kali, masing-masing paling lama 1 tahun. Angka total 4 tahun merupakan hasil penjumlahan batas tersebut. Perlu dibedakan antara batas maksimal dan kewajiban memberikan kontrak awal tepat 2 tahun.",
+"TERVERIFIKASI: Batas pemberitahuan tertulis perpanjangan 7 hari sebelum berakhir terdapat dalam Pasal 82 ayat (3), bukan ketentuan PP 35/2021.",
+"TERVERIFIKASI: Kewajiban pencatatan maksimal 3 hari kerja sejak PKWT ditandatangani terdapat dalam Pasal 87 ayat (3). Ketentuan ini berbeda dari Pasal 14 PP 35/2021 yang sebelumnya membedakan pencatatan daring dan tertulis.",
+"TERVERIFIKASI: Larangan masa percobaan dan akibat batal demi hukum terdapat dalam Pasal 86 ayat (1) dan (2). Masa kerja tetap diperhitungkan.",
+"KOREKSI RUJUKAN: PKWT yang tidak dibuat secara tertulis demi hukum menjadi PKWTT berdasarkan Pasal 85 yang merujuk Pasal 83 ayat (1), bukan Pasal 87 ayat (5). Pasal 87 ayat (5) mengatur perubahan demi hukum menjadi PKWTT apabila persyaratan jenis pekerjaan pada ayat (1) dan larangan pekerjaan tetap pada ayat (2) dilanggar.",
+"TERVERIFIKASI: Pasal 88 ayat (1) mewajibkan pemberian kompensasi ketika PKWT berakhir sebagaimana dimaksud Pasal 81 ayat (1). Pasal 88 ayat (2) mengaitkan kompensasi dengan masa kerja dan ayat (3) menyerahkan pengaturan lebih lanjut kepada PP.",
+"TERVERIFIKASI DENGAN CATATAN: PP 35/2021 masih tercatat berstatus berlaku pada JDIH Kementerian Ketenagakerjaan. Pasal 310 UU 27/2026 mempertahankan peraturan pelaksanaan lama sepanjang tidak bertentangan dengan UU baru. Oleh sebab itu, Pasal 15 dan Pasal 16 PP 35/2021 digunakan sebagai dasar teknis kompensasi sepanjang ketentuannya masih sesuai dengan UU 27/2026.",
+"TERVERIFIKASI: PP 35/2021 Pasal 15 ayat (3) menetapkan masa kerja minimal 1 bulan secara terus-menerus untuk memperoleh kompensasi. Pasal 16 ayat (1) menetapkan perhitungan proporsional masa kerja dibagi 12 dikalikan 1 bulan upah. Untuk masa kerja 8 bulan dan dasar upah kompensasi Rp6 juta, hasilnya Rp4 juta.",
+"CATATAN PERHITUNGAN: Dasar upah kompensasi tidak selalu sama dengan seluruh gaji yang diterima. Berdasarkan Pasal 16 ayat (2) sampai (4) PP 35/2021, dasar perhitungan bergantung pada komponen upah, antara lain upah pokok dan tunjangan tetap, upah tanpa tunjangan, atau upah pokok. Contoh pada slide mengasumsikan dasar upah kompensasi memang Rp6 juta.",
+"TERVERIFIKASI: Pasal 310 mempertahankan peraturan pelaksanaan dari UU 13/2003 dan UU 6/2023 sepanjang tidak bertentangan dengan UU 27/2026. Dengan demikian, ketentuan lama mengenai durasi maksimal PKWT yang bertentangan dengan batas baru tidak dapat dijadikan acuan.",
+"TERVERIFIKASI: Pasal 311 mencabut seluruh UU 13/2003, tetapi pencabutan UU 6/2023 hanya mencakup Bab IV Bagian Kesatu Pasal 80 huruf a dan Bagian Kedua Pasal 81 dalam lampirannya. Tidak tepat menyatakan seluruh klaster ketenagakerjaan UU 6/2023 dicabut.",
+"TERVERIFIKASI PER TANGGAL 23 NOVEMBER 2026: Penelusuran inventarisasi JDIH Kemnaker belum menemukan PP baru yang secara khusus menjadi peraturan pelaksanaan ketentuan PKWT dalam UU 27/2026. Pasal 312 memberikan batas waktu paling lama 1 tahun sejak pengundangan untuk menetapkan peraturan pelaksanaan.",
+"ANALISIS HUKUM: Berakhirnya masa PKWT saja tidak otomatis mengubah status pekerja menjadi PKWTT. Perubahan demi hukum yang dibahas dalam slide didasarkan pada pelanggaran persyaratan bentuk tertulis atau persyaratan jenis pekerjaan sebagaimana Pasal 85 dan Pasal 87 ayat (5).",
+"TINGKAT KEYAKINAN MEDIUM: Ketentuan utama batas durasi, pemberitahuan, pencatatan, larangan masa percobaan, dan dasar kompensasi telah dicocokkan dengan naskah UU dan PP resmi. Namun, penerapan teknis PP 35/2021 terhadap ketentuan baru mengenai kompensasi tetap perlu dipantau sampai PP pelaksana UU 27/2026 diterbitkan."
+]
+}
+</json>
